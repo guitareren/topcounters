@@ -11,6 +11,13 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  -webkit-tap-highlight-color: transparent; /* Mobilde tıklama anındaki mavi kutuyu siler */
+  -webkit-touch-callout: none;              /* iOS'ta basılı tutunca çıkan menüyü engeller */
+  -webkit-user-select: none;                /* Safari */
+  -khtml-user-select: none;                 /* Konqueror HTML */
+  -moz-user-select: none;                   /* Firefox */
+  -ms-user-select: none;                    /* Internet Explorer/Edge */
+  user-select: none;                        /* Standart */
 }
 
 body {
@@ -460,4 +467,28 @@ section.counter {
 
 .github-link:hover svg {
   transform: rotate(360deg) scale(1.1);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    /* Tarayıcının çift tıkla odaklanma/zoom hareketini tamamen kapatır */
+    touch-action: manipulation; 
+    /* Metin seçmeyi engeller (sayı artırırken metnin maviye boyanmaması için) */
+    user-select: none;
+    -webkit-user-select: none;
+    overscroll-behavior: none;
+}
+
+.pushable, .nav-card, .home-icon-link {
+    -webkit-tap-highlight-color: transparent; /* Mobildeki tıklama gölgesini siler */
+    outline: none; /* Odaklanma çerçevesini kaldırır */
+    user-select: none;
+}
+
+.pushable:focus, .nav-card:focus {
+  outline: none;
 }
