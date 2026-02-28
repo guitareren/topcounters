@@ -1,7 +1,7 @@
-# 🚀 Modern Counter Suite
+# ⏳ Modern Counter Suite
 
 A collection of high-performance, aesthetically pleasing web-based counters. Designed with a focus on **Glassmorphism**, **Neon Aesthetics**, and **User Experience**, this suite provides a professional set of tools for tracking increments, decrements, and productivity.
-Check on: 
+Check on: https://github.com/guitareren/topcounters
 ---
 
 ## ✨ Key Features
@@ -26,7 +26,7 @@ An advanced decrementing tool. Features a high-end **Neon Input System** that al
 
 ### 3. Pomodoro Timer
 A productivity powerhouse using the same design language to help you manage work and break intervals effectively using the 25/5 rule.
-pomodoro timer repo: 
+pomodoro timer repo: https://github.com/guitareren/pomodorotimer
 ---
 
 ## 🎨 Design Language
