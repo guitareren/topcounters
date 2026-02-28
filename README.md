@@ -19,14 +19,14 @@ Check on:
 ### 1. UpCounter
 The classic incremental counter. Minimalist, fast, and satisfying to use. Perfect for general tallying with a massive, high-readability display.
 
-### 2. DownCounter Pro
+### 2. DownCounter
 An advanced decrementing tool. Features a high-end **Neon Input System** that allows users to set a starting value and count down.
 * **Smart Input:** Starting values remain visible in the input field for reference while the main counter decreases.
 * **Neon Logic:** Interactive focus-within animations that trigger rotating conic-gradients.
 
-### 3. Pomodoro Timer (Beta)
+### 3. Pomodoro Timer
 A productivity powerhouse using the same design language to help you manage work and break intervals effectively using the 25/5 rule.
-
+pomodoro timer repo: 
 ---
 
 ## 🎨 Design Language
