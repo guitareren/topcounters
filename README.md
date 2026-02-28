@@ -1,7 +1,7 @@
 # ⏳ Modern Counter Suite
 
 ### A collection of high-performance, aesthetically pleasing web-based counters. Designed with a focus on **Glassmorphism**, **Neon Aesthetics**, and **User Experience**, this suite provides a professional set of tools for tracking increments, decrements, and productivity.
-Check on: https://github.com/guitareren/topcounters
+* **Check on:** https://github.com/guitareren/topcounters
 ---
 
 ## ✨ Key Features
