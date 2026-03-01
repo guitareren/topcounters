@@ -26,6 +26,12 @@
   <section class="counter">
     <div id="count">0</div>
 
+    <button class="pushable" id="decrement" style="margin-bottom: 20px;">
+      <span class="shadow"></span>
+      <span class="edge" style="filter: brightness(0.5) saturate(0.5);"></span>
+      <span class="front" style="background: #444444;">-</span>
+    </button>
+
     <button class="pushable" id="increment">
       <span class="shadow"></span>
       <span class="edge"></span>
@@ -36,21 +42,28 @@
   </section>
 
   <script>
-    
+
     let count = localStorage.getItem("counter") ? parseInt(localStorage.getItem("counter")) : 0;
     const countDisplay = document.getElementById("count");
 
-    
+
     countDisplay.textContent = count;
 
-    
+    // Arttırma (+)
     document.getElementById("increment").addEventListener("click", () => {
       count++;
       countDisplay.textContent = count;
       localStorage.setItem("counter", count);
     });
 
-    
+    // Azaltma (-)
+    document.getElementById("decrement").addEventListener("click", () => {
+      count--;
+      countDisplay.textContent = count;
+      localStorage.setItem("counter", count);
+    });
+
+
     document.getElementById("reset").addEventListener("click", () => {
       count = 0;
       countDisplay.textContent = count;
